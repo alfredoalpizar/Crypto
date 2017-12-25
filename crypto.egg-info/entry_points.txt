@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        crypto=Crypto:cli
+    
