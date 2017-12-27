@@ -2,14 +2,13 @@ from setuptools import setup
 
 setup(
     name="crypto",
-    version='0.1',
-    py_modules=['Crypto'],
+    version='0.2',
+    py_modules=['crypto'],
     install_requires=[
-        'click', 'requests',
+        'click', 'requests', 'terminaltables',
     ],
     entry_points='''
         [console_scripts]
-        crypto=Crypto:cli
+        crypto=crypto:cli
     ''',
 )
-
