@@ -37,5 +37,6 @@ def cli(coin):
                 color = 'green' if float(item['percent_change_24h']) > 0 else 'red'
                 table_data.append([item['rank'], item['name'], click.style(item['price_usd'], fg=color), click.style(item['percent_change_24h'], fg=color)])
                 found = True
+                click.echo(table.table)
         if not found:
             click.echo('Coin could not be found')
