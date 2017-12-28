@@ -5,7 +5,7 @@ Written in python using click, requests, and setuptools.
 
 ## Demo
 
-[![Watch a demo here](demo.gif)](https://asciinema.org/a/154591?speed=1.7&rows=30)
+[![Usage Demo](demo.gif)](https://asciinema.org/a/154591?speed=1.7&rows=30)
 
 ## Installation
 
