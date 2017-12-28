@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="crypto",
-    version='0.2',
+    version='0.5',
     py_modules=['crypto'],
     install_requires=[
         'click', 'requests', 'terminaltables',
